@@ -4,9 +4,9 @@ demo site: https://gracious-sinoussi-18a298.netlify.app/
 
 ## Requirements Checklist
 
-- [ ] mouse-click on a div - causes the div to be selected, and it changes color to be blue. If another div was selected, it should be deselected.
-- [ ] mouse-click on the background (on workarea) not on any objects - deselects the selected div, if any.
-- [ ] mouse down on a div and move - causes the div to start moving, following the mouse, until mouse-up. It should not change color (this way of moving should not change the selected div).
+- [x] mouse-click on a div - causes the div to be selected, and it changes color to be blue. If another div was selected, it should be deselected.
+- [x] mouse-click on the background (on workarea) not on any objects - deselects the selected div, if any.
+- [x] mouse down on a div and move - causes the div to start moving, following the mouse, until mouse-up. It should not change color (this way of moving should not change the selected div).
 - [ ] mouse double-click - causes the div to be selected (change color), and also starts a mode where this - div follows the mouse (even though the mouse button has been released). The div should stop following the mouse on the next mouse up event. While in this mode, all other mouse behaviors on the divs should be suspended (so, for example, clicking on a different div will not select it). This is a common accessibility feature for people who have difficulty holding down a mouse button.
 - [ ] If the user hits the keyboard "ESC" key while the operation is in progress, then the moving or growing should abort, and the div should go back to the way it was before the operation starts. Hitting "ESC" when an operation is not in progress should do nothing. (Obviously, this mainly applies to mouse behaviors, but if you have a keyboard on your tablet, or a touch screen on your laptop, then this should work with moving and changing size from touch events too.) Aborting a move or grow should not affect which object is selected.
 - [ ] one-finger tap and double-tap - as explained in class, these generate mouse click and double click events, so they should do the same thing as mouse-click and mouse-double-click.
